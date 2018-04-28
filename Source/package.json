@@ -1,0 +1,177 @@
+{
+    "author": "rao",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "neat-analog",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Neat Analog",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "ICON_NUMBER",
+            "COLOR_MAIN_BG",
+            "COLOR_MAIN_STROKE",
+            "COLOR_BATTERY_METER",
+            "TEMPERATURE_UNIT",
+            "TEMPERATURE_TYPE",
+            "LOCATION_SOURCE",
+            "LOCATION_STATE_CODE",
+            "LOCATION_CITY",
+            "API_KEY_WU",
+            "SETTINGS",
+            "UPDATE_INTERVAL",
+            "VIBRATE_DISCONNECT",
+            "SHOW_CONDITIONS",
+            "COLOR_CLOCK_BG",
+            "COLOR_MINUTE_HAND",
+            "COLOR_CLOCK_STROKE",
+            "COLOR_HOUR_HAND",
+            "COLOR_CENTER_DOT",
+            "SHOW_WATCHFACE_NUMBERS",
+            "SHOW_BATTERY_METER",
+            "DATE_FORMAT",
+            "SHOW_HOUR_TICKS",
+            "SHOW_MINUTE_TICKS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Watchface_Numbers",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_WATCHFACE_NUMBERS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Watchface_Minute_Ticks",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_MINUTE_TICKS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Watchface_Hour_Ticks",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_HOUR_TICKS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partlycloudy.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_PARTLYCLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/screenshot_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_SCREENSHOT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/test.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_TEST",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear_day.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLEAR_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear_night.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLEAR_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloudy.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/fog.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_FOG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sleet.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SLEET",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snow.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tstorms.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_TSTORMS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partlysunny.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_PARTLYSUNNY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunrise.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SUNRISE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunset.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SUNSET",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "765375d4-b280-43e2-941b-2e15bf80e905",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.4.0"
+}
